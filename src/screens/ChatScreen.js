@@ -7,7 +7,7 @@ const ChatScreen = () => {
 
   const handleSendMessage = async () => {
     try {
-      const response = await axios.post('API_URL/send-message', {
+      const response = await axios.post('YOUR_API_URL/send-message', {
         user_id: 1,
         message,
       });
